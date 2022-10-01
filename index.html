@@ -7,27 +7,58 @@
     <script src="https://cdn.tailwindcss.com"></script>
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <link rel="stylesheet" href="src/main.css">
+
+
+
+
   </head>
 
 <body>
 
   <!-- section navbar start -->
-  <section>
+  <header class="  top-0  left-0 w-full flex items-center z-10 " >
+<div class="container">
+  <div class="flex items-center justify-between relative">
+    <div class="px-4 lg:ml-28 md:ml-5">
+      <a href="#home" class=" text-red-500 font-bold text-lg md:text-2xl text-primary block py-6">Diki Setiawan</a>
+    </div>
 
+    <div class="flex items-center px-4 ">
+     <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+      <span class="w-[30px] h-[2px] my-2 block bg-black transition duration-300 ease-in-out origin-top-left"></span>
+      <span class="w-[30px] h-[2px] my-2 block bg-black transition duration-300 ease-in-out"></span>
+      <span class="w-[30px] h-[2px] my-2 block bg-black transition duration-300 ease-in-out origin-bottom-left"></span>
+     
+     </button>
+<nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full p-5 lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none  ">
+  <ul class="block lg:flex" >
+    <li class="group"  >
+      <a href="#home" class="py-2 text-base mx-8 flex hover:text-red-400">Home</a>
+    </li>
+    <li class="group"  >
+      <a href="#about" class="py-2 text-base mx-8 flex hover:text-red-400" >About Me</a>
+    </li>
+    <li class="group" >
+      <a href="#project" class="py-2 text-base mx-8 flex hover:text-red-400">My Project</a>
+    </li>
+    <li class="group" >
+      <a href="#skills" class="py-2 text-base mx-8 flex hover:text-red-400">Skills</a>
+    </li>
+    <li class="group" >
+      <a href="#contact" class="py-2 text-base mx-8 flex  hover:text-red-400">My Contact</a>
+    </li>
+  </ul>
+</nav>
 
+    </div>
+  </div>
+</div>
 
-
-
-  </section>
+  </header>
 
 <!-- section navbar end -->
-
-
-
-
-
-
-
 
      <!-- section start -->
   <section id="home" class="pt-36 ">
@@ -61,12 +92,12 @@
     </div>
    
 </div>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#FFE3E1" fill-opacity="1" d="M0,192L48,197.3C96,203,192,213,288,197.3C384,181,480,139,576,128C672,117,768,139,864,176C960,213,1056,267,1152,282.7C1248,299,1344,277,1392,266.7L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f1f5f9" fill-opacity="1" d="M0,288L48,245.3C96,203,192,117,288,106.7C384,96,480,160,576,208C672,256,768,288,864,298.7C960,309,1056,299,1152,282.7C1248,267,1344,245,1392,234.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
   </section>
   <!-- section end -->
 
   <!-- section start about me -->
-  <section id="about" class="pt-24  mb-6 bg-red-100 ">
+  <section id="about" class="pt-24  mb-6 bg-slate-100 ">
 
   <div class="containermd:mx-auto" data-aos="fade-up" data-aos-duration="3000">
     <p class="text-center font-bold text-2xl md:text-4xl mb-5 ">About me</p>
@@ -125,7 +156,7 @@
       
     </div>
   </div>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#FFE3E1" fill-opacity="1" d="M0,192L48,197.3C96,203,192,213,288,197.3C384,181,480,139,576,128C672,117,768,139,864,176C960,213,1056,267,1152,282.7C1248,299,1344,277,1392,266.7L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f1f5f9" fill-opacity="1" d="M0,96L48,133.3C96,171,192,245,288,250.7C384,256,480,192,576,138.7C672,85,768,43,864,53.3C960,64,1056,128,1152,181.3C1248,235,1344,277,1392,298.7L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
 </section>
 
 <!-- section project end -->
@@ -133,7 +164,7 @@
 
 <!-- section skills start -->
 
-<section id="skills" class=" mb-6 bg-red-100">
+<section id="skills" class=" mb-6 bg-slate-100">
   <div class="container md:mx-auto">
     <p class="text-center font-bold text-2xl md:text-4xl ">Skills</p>
 
@@ -330,6 +361,9 @@
   <script>
     AOS.init();
   </script>
+
+
+<script src="/src/main.js"></script>
 
 </body>
 
