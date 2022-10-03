@@ -16,6 +16,8 @@
   </head>
 
 <body>
+<div class="container m-auto">
+  <div class="row ">
 
   <!-- section navbar start -->
   <header class="  top-0  left-0 w-full flex items-center z-10 " >
@@ -61,18 +63,20 @@
 <!-- section navbar end -->
 
      <!-- section start -->
-  <section id="home" class="pt-36 ">
+  <section id="home" class="pt-24 ">
 <div class="container md:mx-4">
     <div class="flex flex-wrap">
         <div class="w-full self-center px-4 lg:w-1/2 ">
         <h1 class="font-semibold text-red-500 md:text-4xl text-xl mb-3  ">Hi, There <span class="animate-ping"> 👋</span> <span class="block font-bold text-slate-800 mt-1 text-4xl md:text-6xl"> i'am Diki Setiawan</span> </h1>
-        <h2 class="font-medium text-slate-700 text-xl md:text-2xl mb-7 ">PHP Developer & UI/UX Design</h2>
+        <h2 class="font-medium text-slate-700 text-xl md:text-2xl mb-7 ">PHP Developer & UI Design</h2>
         <p class=" text-start text-second font-medium leading-relaxed md:mb-10 text-lg md:text-xl  ">I'm php developer & ui/ux design. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit vitae temporibus accusantium est sed alias! </p>
        <br>
        <br>
        <br>
-        <a href="#" class="bg-red-500 text-white font-semibold py-3 px-6 rounded-full shadow-lg  hover:bg-white hover:border-red-500 hover:text-red-500 transition duration-500  ease-in-out md:text-xl md:px-10  md:py-4  ">Contact Me</a>
-        <a href="#" class=" lg:text-primary border-2 border-red-500 text-blue-500  font-semibold py-2 px-4 rounded-full  ml-5 hover:text-white hover:bg-red-400 transition duration-500  hover:border-none ease-in-out md:text-xl md:px-10  md:py-4 hover:shadow-lg ">Download CV</a>
+       <div class=" flex justify-center md:justify-start">
+         <a href="#" class="bg-red-500 text-white font-semibold py-3 px-6 rounded-full shadow-lg  hover:bg-white hover:border-red-500 hover:text-red-500 transition duration-500  ease-in-out md:text-xl md:px-10  md:py-4  ">Contact Me</a>
+         <a href="#" class=" lg:text-primary border-2 border-red-500 text-blue-500  font-semibold py-2 px-4 rounded-full  ml-5 hover:text-white hover:bg-red-400 transition duration-500  hover:border-none ease-in-out md:text-xl md:px-10  md:py-4 hover:shadow-lg ">Download CV</a>
+        </div>
     </div>
      <div class="w-full self-end px-4 lg:w-1/2  " >
     <div class="relative mt-10  lg:mt-0 lg:right-0" data-aos="zoom-out-right" data-aos-duration="1500" data-aos-delay="300">
@@ -114,11 +118,11 @@
 
   <!-- section project start -->
 <section id="project" class="pt-16 ">
-  <div class="container md:mx-auto " >
+  <div class="container md:mx-auto "  data-aos="fade-down" data-aos-duration="1500" data-aos-delay="100">
     <p class="text-center font-bold text-2xl md:text-4xl ">My Project</p>
   
 
-    <div class="flex flex-wrap  md:grid md:grid-cols-3 pt-20 " data-aos="fade-down" >
+    <div class="flex flex-wrap  md:grid md:grid-cols-3 pt-20 "  >
       <div class=" mx-2 card mt-2 shadow-lg rounded-lg mb-5  " data-aos="fade-down" data-aos-duration="1500" data-aos-delay="100">
     
         <img class=" hover:blur-sm object-fit  h-49  rounded-lg md:h-72 w-full  hover:transition hover:duration-300 hover:cursor-pointer " src="./src/img/inventori2.png" alt="boiler">
@@ -165,7 +169,7 @@
 <!-- section skills start -->
 
 <section id="skills" class=" mb-6 bg-slate-100">
-  <div class="container md:mx-auto">
+  <div class="container md:mx-auto" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
     <p class="text-center font-bold text-2xl md:text-4xl ">Skills</p>
 
 
@@ -191,8 +195,8 @@
       </div>
          
         <div class="card p-2 bg-slate-800 text-center m-3 rounded-lg shadow-lg" data-aos="zoom-in-up" data-aos-duration="2000" data-aos-delay="400">
-          <img class="w-24 h-28 ml-28 md:ml-14 md:w-28 lg:ml-28 lg:w-36" src="src/icons/js.svg" alt="">
-          <p class="text-md text-white md:text-xl">Javacsript</p>
+          <img class="w-24 h-28 ml-28 md:ml-14 md:w-28 lg:ml-28 lg:w-36" src="src/icons/git.svg" alt="">
+          <p class="text-md text-white md:text-xl">GIT</p>
           <p class="text-sm text-slate-400 md:text-lg ">PHP is scripting language</p>
         
       </div>
@@ -239,8 +243,8 @@
 <section id="contact" class="mt-16 mb-16 md:ml-28">
 
 
-<div class="container ">
-<p class="text-center font-bold text-2xl md:text-4xl">My Contact</p>
+<div class="container " data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
+<p class="text-center font-bold text-2xl md:text-4xl">Contact Me</p>
 
 <div class="grid md:grid-cols-1 md:justify-center  ">
   <div class= " my-alert hidden m-5 mt-10 -mb-5 bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded relative" role="alert">
@@ -328,12 +332,13 @@
       
       
       <div class=" text-white  justify-start mt-14 text-xl md:text-4xl md:ml-20 ">
-       <p>Diki Setiawan</p>
+       <ul>
+        <li class="text-bold mb-5 font-bold  md:text-4xl">Diki Setiawan</li>
+        <li><a href="" class="text-sm md:text-xl"><i class="fa-brands fa-whatsapp"></i> 085777613672</a></li>
+        <li><a href="" class="text-sm md:text-xl"><i class="fa-solid fa-envelope"></i> dikisetia101@gmail.com</a></li>
+       </ul>
       
-       <div class="text-slate-100 text-sm mt-20">
-
-        
-       </div>
+       
       </div>
      
       <div class=" text-white flex justify-end md:text-xl md:mt-5 m-5 p-4">
@@ -347,7 +352,17 @@
           <li><a href="https://github.com/dikisetiawan1"><i class="fa-brands fa-square-github py-2"></i> github</a></li>
         
         </ul>
+        
       </div>
+    </div>
+    
+
+    <div class="text-center p-5 text-slate-800 font-semibold md:text-2xl">
+
+      <span>
+
+        All Copyright Diki Setiawan 2022
+      </span>
     </div>
   </div>
 
@@ -364,6 +379,8 @@
 
 
 <script src="./src/js/index.js" type="text/javascript"></script>
+ </div>
+</div>
 
 </body>
 
