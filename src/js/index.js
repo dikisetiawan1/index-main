@@ -27,6 +27,13 @@ hamburger.addEventListener('click', function(){
 })
 
 
-// swiper
+// tyepd js library
+var typed = new Typed('#typed', {
+    // Waits 1000ms after typing "First"
+    strings: ["I'm", "Diki Setiawan."],
+    typeSpeed:70,
+    startDelay:90,
+    loop:true,
+    backSpeed:50
 
-
+  });
