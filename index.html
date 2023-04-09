@@ -89,7 +89,7 @@
               <h2 class="font-medium text-slate-500 text-xl md:text-2xl mb-7 ">Web Developer </h2>
               <p class=" text-start text-second font-medium leading-relaxed md:mb-10 text-lg md:text-xl spacing "> My name is Diki Setiawan, I graduated in informatics engineering from Pelita Bangsa University, Bekasi, and I am a web developer/Frontend Developer, I have 6 months of internship experience creating web inventory systems, I am also used to creating responsive websites with high quality. And I love what I do.  </p>
              
-              <div class=" sm:mt-10 flex justify-center md:justify-start">
+              <div class=" desktop flex justify-center md:justify-start">
                 <a href="https://wa.link/5ow5o4"
                   class="bg-red-500 text-white font-semibold py-3 px-6 rounded-full shadow-lg  hover:bg-white hover:border-red-500 hover:text-red-500 transition duration-500  ease-in-out md:text-xl md:px-10  md:py-4  " target="_blank">Contact
                   me</a>
@@ -97,23 +97,25 @@
                   class=" lg:text-primary border-2 border-red-500 text-blue-500  font-semibold py-2 px-4 rounded-full  ml-5 hover:text-white hover:bg-red-400 transition duration-500  hover:border-none ease-in-out md:text-xl md:px-10  md:py-4 " target="_blank">My
                   cv</a>
               </div>
+               <div class=" mobile btn-top">
+                <a href="https://wa.link/5ow5o4"
+                  class="bg-red-500 text-white font-semibold py-3 px-6 rounded-lg shadow-lg  hover:bg-white hover:border-red-500 hover:text-red-500 transition duration-500  ease-in-out md:text-xl md:px-10  md:py-4  " target="_blank">Contact
+                  me</a> 
+                <a href="./src/CurriculumVitae.pdf" download="cv_diki_setiawan"
+                  class=" cv lg:text-primary border-2 border-red-500 text-blue-500  font-semibold py-2 px-4 rounded-lg ml-5 hover:text-white hover:bg-red-400 transition duration-500  hover:border-none ease-in-out md:text-xl md:px-10  md:py-4 " target="_blank">My
+                  cv</a>
+              </div>
             </div>
             <div class="w-full self-end px-4 lg:w-1/2  ">
               <div class="relative mt-10  lg:mt-0 lg:right-0" data-aos="zoom-out-right" data-aos-duration="1500"
                 data-aos-delay="300">
 
-
+              <div class="wrapper-img desktop">
                 <img src="./src/img/diki.png" alt="gambar diki"
-                  class="mt-5 max-w-full -ml-26 md:max-w-screen-xl  md:mx-auto ">
+                class="mt-5 max-w-full -ml-26 md:max-w-screen-xl  md:mx-auto ">
+          
+              </div>
 
-
-                <span class=" absolute -bottom-0 -z-10 left-1/2 -translate-x-1/2 lg:bottom-11">
-                  <svg class="width=" 350" height="320"" viewBox=" 0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                    <path fill="#EF4444"
-                      d="M28.6,-34.7C37.4,-26.8,44.9,-18,50,-6.2C55.2,5.5,58,20.3,51.3,27.5C44.7,34.8,28.6,34.5,13.4,42.6C-1.8,50.6,-16.1,67,-27.3,66.6C-38.4,66.1,-46.5,48.8,-50.2,33.3C-54,17.9,-53.5,4.3,-52.6,-10.7C-51.6,-25.7,-50.3,-42,-41.4,-49.9C-32.6,-57.8,-16.3,-57.2,-3.2,-53.5C9.9,-49.7,19.9,-42.6,28.6,-34.7Z"
-                      transform="translate(100 100) scale(1.1) " />
-                  </svg>
-                </span>
               </div>
             </div>
 
@@ -155,6 +157,7 @@
         </svg>
       </section>
 
+
       <!-- section project start -->
       <section id="project" class="pt-16 ">
         <div class="container md:mx-auto " data-aos="fade-down" data-aos-duration="1500" data-aos-delay="100">
@@ -162,8 +165,7 @@
           <p class="text-center font-bold text-2xl md:text-4xl ">My Project</p>
 
 <!-- Swiper -->
-
-        <swiper-container class="sm:hidden md:inline-block mySwiper mt-10" pagination="true" pagination-clickable="true" space-between="30"
+        <swiper-container class="desktop md:inline-block mySwiper mt-10" pagination="true" pagination-clickable="true" space-between="30"
             slides-per-view="3">
             <swiper-slide> 
               <div class="  mx-2 card mt-2 shadow-lg rounded-lg mb-5 swiper-slide " data-aos="fade-down" data-aos-duration="1500"
@@ -180,22 +182,22 @@
 
             </div>
           </swiper-slide>
-            <swiper-slide>
-              <div class=" mx-2 card mt-2 shadow-lg rounded-lg mb-5 swiper-slide  " data-aos="fade-down" data-aos-duration="2000"
-              data-aos-delay="200">
+            <swiper-slide> 
+              <div class="  mx-2 card mt-2 shadow-lg rounded-lg mb-5 swiper-slide " data-aos="fade-down" data-aos-duration="1500"
+              data-aos-delay="100">
 
               <img
-                class=" object-fit md:h-72  h-49  rounded-lg w-full hover:transition hover:duration-300 hover:cursor-pointer "
-                src="./src/img/broiler.png" alt="boiler">
+                class="  object-fit  h-49  rounded-lg md:h-72 w-full  hover:transition hover:duration-300 hover:cursor-pointer "
+                src="./src/img/kalkulator.png" alt="boiler">
 
               <div class="title px-5 text-center py-3 mb-3">
-                <p class="mt-3 my-1 mx-2 font-bold text-lg md:text-2xl  ">Sistem Penjual Ayam Potong </p>
-                <p class=" text-slate-400 text-sm md:text-lg ">Web system </p>
+                <p class="my-1 mx-2 font-bold text-lg md:text-2xl">Calculator Aplication</p>
+                <p class=" text-slate-400 text-sm md:text-lg ">Web & Mobile</p>
               </div>
 
             </div>
-
-            </swiper-slide>
+          </swiper-slide>
+          
             <swiper-slide>
               <div class="  mx-2 card mt-2 shadow-lg rounded-lg mb-5 swiper-slide"  data-aos="fade-down" data-aos-duration="3000"
               data-aos-delay="300">
@@ -219,17 +221,11 @@
                 <p class=" text-slate-400 text-sm md:text-lg ">Web system</p>
               </div>
             </div>
-            </swiper-slide>
-            <swiper-slide>
-              <p>img 5</p>
-            </swiper-slide>
-            <swiper-slide>
-              <p>img 6</p>
-            </swiper-slide>
+            
           </swiper-container>
 
            <!-- mobile project -->
-           <div class=" md:hidden sm:inline-block md:grid-cols-3 m-2 mt-16 md:justify-center ">
+           <div class=" mobile md:hidden sm:inline-block md:grid-cols-3 m-2 mt-16 md:justify-center ">
            <div class="  mx-2 card mt-2 shadow-lg rounded-lg mb-5 px-5" data-aos="fade-down" data-aos-duration="1500"
            data-aos-delay="100">
  
@@ -238,25 +234,25 @@
              src="./src/img/inventori2.png" alt="boiler">
  
            <div class="title px-5 text-center py-3 mb-3">
-             <p class="my-1 mx-2 font-bold text-lg md:text-2xl">Sistem Inventori Barang </p>
+             <p class="my-1 mx-2 font-bold text-lg md:text-2xl">Iventory System</p>
              <p class=" text-slate-400 text-sm md:text-lg ">Web system</p>
            </div>
  
          </div>
-   
-           <div class=" mx-2 card mt-2 shadow-lg rounded-lg mb-5 px-5  " data-aos="fade-down" data-aos-duration="2000"
-           data-aos-delay="200">
+           <div class="  mx-2 card mt-2 shadow-lg rounded-lg mb-5 px-5" data-aos="fade-down" data-aos-duration="1500"
+           data-aos-delay="100">
  
            <img
-             class=" object-fit md:h-72  h-49  rounded-lg w-full hover:transition hover:duration-300 hover:cursor-pointer "
-             src="./src/img/broiler.png" alt="boiler">
+             class="  object-fit  h-49  rounded-lg md:h-72 w-full  hover:transition hover:duration-300 hover:cursor-pointer "
+             src="./src/img/kalkulator.png" alt="boiler">
  
            <div class="title px-5 text-center py-3 mb-3">
-             <p class="mt-3 my-1 mx-2 font-bold text-lg md:text-2xl  ">Sistem Penjual Ayam Potong </p>
-             <p class=" text-slate-400 text-sm md:text-lg ">Web system </p>
+            <p class="my-1 mx-2 font-bold text-lg md:text-2xl">Calculator Aplication</p>
+            <p class=" text-slate-400 text-sm md:text-lg ">Web & Mobile</p>
            </div>
  
          </div>
+   
  
         
            <div class="  mx-2 card mt-2 shadow-lg rounded-lg mb-5 px-5"  data-aos="fade-down" data-aos-duration="3000"
@@ -282,7 +278,6 @@
          </div>
        
         </div>
- 
         </div>
 
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -291,8 +286,9 @@
           </path>
         </svg>
       </section>
-
       <!-- section project end -->
+
+
       <!-- section skills start -->
       <section id="skills" class=" mb-6 bg-slate-100">
         <div class="container md:mx-auto" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
@@ -315,7 +311,7 @@
                <div class="flex justify-center">
                  <img class="w-24 h-28 lg:w-36" src="src/icons/css3-alt.svg" alt="">
                 </div>
-              <p class="text-md text-white md:text-xl">CSS</p>
+              <p class="text-md text-white md:text-xl">CSS & SASS</p>
               <p class="text-sm text-slate-400 md:text-lg">Compotent Programmer</p>
 
             </div>
@@ -325,7 +321,7 @@
                 <img class="w-24 h-28 lg:w-36" src="src/icons/php.svg" alt="">
               </div>
               <p class="text-md text-white md:text-xl">PHP</p>
-              <p class="text-sm text-slate-400 md:text-lg">Compotent Programmer</p>
+              <p class="text-sm text-slate-400 md:text-lg">Intermediate Programmer</p>
             </div>
             <div class="card p-2 bg-slate-800 text-center m-3 rounded-lg shadow-lg " data-aos="zoom-in-up"
               data-aos-duration="2000" data-aos-delay="300">
@@ -333,7 +329,7 @@
                 <img class="w-24 h-28 lg:w-36" src="src/icons/js.svg" alt="">
               </div>
               <p class="text-md text-white md:text-xl">JAVASCRIP</p>
-              <p class="text-sm text-slate-400 md:text-lg">Basic Programmer</p>
+              <p class="text-sm text-slate-400 md:text-lg">Intermediate Programmer</p>
             </div>
             
             <div class="card p-2 bg-slate-800 text-center m-3 rounded-lg shadow-lg" data-aos="zoom-in-up"
@@ -362,7 +358,7 @@
 
                 <img class="w-24 h-28 lg:w-36" src="src/icons/database-solid.svg" alt="">
               </div>
-              <p class="text-md text-white md:text-xl">Database</p>
+              <p class="text-md text-white md:text-xl">DATABASE</p>
               <p class="text-sm text-slate-400 md:text-lg">Compotent Programmer</p>
 
             </div>
@@ -373,18 +369,18 @@
 
                 <img class="w-24 h-28  lg:w-36" src="src/icons/free-code-camp.svg" alt="">
               </div>
-              <p class="text-md text-white md:text-xl"> Framework Codeigniter</p>
-              <p class="text-sm text-slate-400 md:text-lg">Advance programmer</p>
+              <p class="text-md text-white md:text-xl"> CODEIGNITER 3</p>
+              <p class="text-sm text-slate-400 md:text-lg">Basic programmer</p>
 
             </div>
             <div class="card p-2 bg-slate-800 text-center m-3 rounded-lg shadow-lg" data-aos="zoom-in-up"
               data-aos-duration="2000" data-aos-delay="700">
               <div class="flex justify-center">
 
-                <img class="w-24 h-28  lg:w-36" src="src/icons/laravel.svg" alt="">
+                <img class="w-24 h-28  lg:w-36" src="src/icons/react.svg" alt="">
               </div>
-              <p class="text-md text-white md:text-xl"> Framework Laravel</p>
-              <p class="text-sm text-slate-400 md:text-lg">Basic programmer</p>
+              <p class="text-md text-white md:text-xl"> REACT JS</p>
+              <p class="text-sm text-slate-400 md:text-lg">Intermediate Programmer</p>
 
             </div>
             <div class="card p-2 bg-slate-800 text-center m-3 rounded-lg shadow-lg" data-aos="zoom-in-up"
@@ -393,7 +389,7 @@
 
                 <img class="w-24 h-28 lg:w-36" src="src/icons/bootstrap.svg" alt="">
               </div>
-              <p class="text-md text-white md:text-xl">Framework Boostrap</p>
+              <p class="text-md text-white md:text-xl">BOOTSTRAP & TAILWIND</p>
               <p class="text-sm text-slate-400 md:text-lg">Compotent Programmer</p>
 
             </div>
@@ -402,7 +398,7 @@
               <div class="flex justify-center">
                 <img class="w-24 h-28 lg:w-36" src="src/icons/figma.svg" alt="">
               </div>
-              <p class="text-md text-white md:text-xl">Figma</p>
+              <p class="text-md text-white md:text-xl">FIGMA</p>
               <p class="text-sm text-slate-400 md:text-lg">Compotent UI Design</p>
 
             </div>
@@ -411,7 +407,7 @@
               <div class="flex justify-center">
                 <img class="w-24 h-28 lg:w-36" src="src/icons/trello.svg" alt="">
               </div>
-              <p class="text-md text-white md:text-xl">Trello</p>
+              <p class="text-md text-white md:text-xl">TRELLO</p>
               <p class="text-sm text-slate-400 md:text-lg">To Work</p>
 
             </div>
@@ -428,178 +424,87 @@
       <!-- section skills end -->
 
 
-<!-- section education -->
-      <section class="education mt-16 mb-16" id="education">
-        <div class="container md:mx-auto" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
-          <p class="text-center font-bold text-2xl md:text-4xl ">Education</p>
-          <swiper-container class="sm:hidden md:inline-block mySwiper mt-10" pagination="true" pagination-clickable="true" navigation="true" space-between="15"
-          centered-slides="false" autoplay-delay="2500" autoplay-disable-on-interaction="false"
-          slides-per-view="3">
-          <swiper-slide> 
-            <div class="  mx-2 card mt-2 shadow-lg rounded-lg mb-5 swiper-slide " data-aos="fade-down" data-aos-duration="1500"
-            data-aos-delay="100">
+        <!-- section education -->
+       <section class="  education mt-16 mb-16" id="education">
+                <p class="text-center font-bold text-2xl md:text-4xl ">Education</p>
+                <div class=" desktop container md:mx-auto" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
+                  
+                  <swiper-container class="sm:hidden md:inline-block mySwiper mt-10" pagination="true" pagination-clickable="true" navigation="true" space-between="15"
+                  centered-slides="false" autoplay-delay="2500" autoplay-disable-on-interaction="false"
+                  slides-per-view="3">
+                  <swiper-slide> 
+                    <div class="  mx-2 card mt-2 shadow-lg rounded-lg mb-5 swiper-slide " data-aos="fade-down" data-aos-duration="1500"
+                    data-aos-delay="100">
 
-            <img
-            class="  object-fit  h-49  rounded-lg md:h-72 w-full  hover:transition hover:duration-300 hover:cursor-pointer "
-            src="./src/img/edu/7.jpg" alt="boiler">
+                    <img
+                    class="  object-fit  h-49  rounded-lg md:h-72 w-full  hover:transition hover:duration-300 hover:cursor-pointer "
+                    src="./src/img/edu/7.jpg" alt="boiler">
 
-            <div class="title px-5 text-center py-3 mb-3">
-              <p class="my-1 mx-2 font-bold text-lg md:text-2xl">Title</p>
-              <p class=" text-slate-400 text-sm md:text-lg ">Subtitle</p>
-            </div>
+                    <div class="title px-5 text-center py-3 mb-3">
+                      <p class="my-1 mx-2 font-bold text-lg md:text-2xl">Graduate moment</p>
+                      <p class=" text-slate-400 text-sm md:text-lg ">Oktober 2022</p>
+                    </div>
 
-          </div>
-        </swiper-slide>
-          <swiper-slide>
-            <div class=" mx-2 card mt-2 shadow-lg rounded-lg mb-5 swiper-slide  " data-aos="fade-down" data-aos-duration="2000"
-            data-aos-delay="200">
-
-            <img
-            class="  object-fit  h-49  rounded-lg md:h-72 w-full  hover:transition hover:duration-300 hover:cursor-pointer "
-            src="./src/img/edu/8.jpg" alt="boiler">
-
-            <div class="title px-5 text-center py-3 mb-3">
-              <p class="my-1 mx-2 font-bold text-lg md:text-2xl">Title</p>
-              <p class=" text-slate-400 text-sm md:text-lg ">Subtitle</p>
-            </div>
-
-          </div>
-
-          </swiper-slide>
-          <swiper-slide>
-            <div class="  mx-2 card mt-2 shadow-lg rounded-lg mb-5 swiper-slide"  data-aos="fade-down" data-aos-duration="3000"
-            data-aos-delay="300">
-            <img
-            class="  object-fit  h-49  rounded-lg md:h-72 w-full  hover:transition hover:duration-300 hover:cursor-pointer "
-            src="./src/img/edu/3.jpg" alt="boiler">
-            <div class="title px-5 text-center py-3 mb-5">
-              <p class="my-1 mx-2 font-bold text-lg md:text-2xl">Title</p>
-              <p class=" text-slate-400 text-sm md:text-lg ">Subtitle</p>
-            </div>
-          </div>
-          </swiper-slide>
-          <swiper-slide>
-            <div class="  mx-2 card mt-2 shadow-lg rounded-lg mb-5 swiper-slide"  data-aos="fade-down" data-aos-duration="3000"
-            data-aos-delay="300">
-            <img
-            class="  object-fit  h-49  rounded-lg md:h-72 w-full  hover:transition hover:duration-300 hover:cursor-pointer "
-            src="./src/img/edu/4.jpg" alt="boiler">
-            <div class="title px-5 text-center py-3 mb-5">
-              <p class="my-1 mx-2 font-bold text-lg md:text-2xl">Title</p>
-              <p class=" text-slate-400 text-sm md:text-lg ">Subtitle</p>
-            </div>
-          </div>
-          </swiper-slide>
-          <swiper-slide>
-            <div class=" mx-2 card mt-2 shadow-lg rounded-lg mb-5 swiper-slide  " data-aos="fade-down" data-aos-duration="2000"
-            data-aos-delay="200">
-            <img
-            class="  object-fit  h-49  rounded-lg md:h-72 w-full  hover:transition hover:duration-300 hover:cursor-pointer "
-            src="./src/img/edu/1.jpg" alt="boiler">
-            <div class="title px-5 text-center py-3 mb-5">
-              <p class="my-1 mx-2 font-bold text-lg md:text-2xl">Title</p>
-              <p class=" text-slate-400 text-sm md:text-lg ">Subtitle</p>
-            </div>
-            </div>
-          </swiper-slide>
-          <swiper-slide>
-            <div class=" mx-2 card mt-2 shadow-lg rounded-lg mb-5 swiper-slide  " data-aos="fade-down" data-aos-duration="2000"
-            data-aos-delay="200">
-            <img
-            class="  object-fit  h-49  rounded-lg md:h-72 w-full  hover:transition hover:duration-300 hover:cursor-pointer "
-            src="./src/img/edu/6.jpg" alt="boiler">
-            <div class="title px-5 text-center py-3 mb-5">
-              <p class="my-1 mx-2 font-bold text-lg md:text-2xl">Title</p>
-              <p class=" text-slate-400 text-sm md:text-lg ">Subtitle</p>
-            </div>
-            </div>
-          </swiper-slide>
-        </swiper-container>
+                  </div>
+                </swiper-slide>
+            
+                  <swiper-slide>
+                    <div class="  mx-2 card mt-2 shadow-lg rounded-lg mb-5 swiper-slide"  data-aos="fade-down" data-aos-duration="3000"
+                    data-aos-delay="300">
+                    <img
+                    class="  object-fit  h-49  rounded-lg md:h-72 w-full  hover:transition hover:duration-300 hover:cursor-pointer "
+                    src="./src/img/edu/3.jpg" alt="boiler">
+                    <div class="title px-5 text-center py-3 mb-5">
+                      <p class="my-1 mx-2 font-bold text-lg md:text-2xl">Graduate moment</p>
+                      <p class=" text-slate-400 text-sm md:text-lg ">Oktober 2022</p>
+                    </div>
+                  </div>
+                  </swiper-slide>
+                  
+                </swiper-container>
 
 
-        <!-- mobile -->
-        <div class=" md:hidden sm:inline-block md:grid-cols-3 m-2 mt-16 md:justify-center ">
+              
+                  </div>
+        </section>
+
+       <!-- mobile -->
+       <div class=" mobile md:hidden sm:inline-block md:grid-cols-3 m-2 mt-16 md:justify-center ">
       
-            <div class="  mx-2 card mt-2 shadow-lg rounded-lg mb-5 swiper-slide " data-aos="fade-down" data-aos-duration="1500"
-            data-aos-delay="100">
+        <div class="  mx-2 card mt-2 shadow-lg rounded-lg mb-5 swiper-slide " data-aos="fade-down" data-aos-duration="1500"
+        data-aos-delay="100">
 
-            <img
-            class="  object-fit  h-49  rounded-lg md:h-72 w-full  hover:transition hover:duration-300 hover:cursor-pointer "
-            src="./src/img/edu/7.jpg" alt="boiler">
+        <img
+        class="  object-fit  h-49  rounded-lg md:h-72 w-full  hover:transition hover:duration-300 hover:cursor-pointer "
+        src="./src/img/edu/7.jpg" alt="boiler">
 
-            <div class="title px-5 text-center py-3 mb-3">
-              <p class="my-1 mx-2 font-bold text-lg md:text-2xl">Title</p>
-              <p class=" text-slate-400 text-sm md:text-lg ">Subtitle</p>
-            </div>
+        <div class="title px-5 text-center py-3 mb-3">
+          <p class="my-1 mx-2 font-bold text-lg md:text-2xl">Graduate moment</p>
+          <p class=" text-slate-400 text-sm md:text-lg ">Oktober 2022</p>
+        </div>
 
-          </div>
-       
-            <div class=" mx-2 card mt-2 shadow-lg rounded-lg mb-5 swiper-slide  " data-aos="fade-down" data-aos-duration="2000"
-            data-aos-delay="200">
-
-            <img
-            class="  object-fit  h-49  rounded-lg md:h-72 w-full  hover:transition hover:duration-300 hover:cursor-pointer "
-            src="./src/img/edu/8.jpg" alt="boiler">
-
-            <div class="title px-5 text-center py-3 mb-3">
-              <p class="my-1 mx-2 font-bold text-lg md:text-2xl">Title</p>
-              <p class=" text-slate-400 text-sm md:text-lg ">Subtitle</p>
-            </div>
-
-          </div>
-
-            <div class="  mx-2 card mt-2 shadow-lg rounded-lg mb-5 swiper-slide"  data-aos="fade-down" data-aos-duration="3000"
-            data-aos-delay="300">
-            <img
-            class="  object-fit  h-49  rounded-lg md:h-72 w-full  hover:transition hover:duration-300 hover:cursor-pointer "
-            src="./src/img/edu/3.jpg" alt="boiler">
-            <div class="title px-5 text-center py-3 mb-5">
-              <p class="my-1 mx-2 font-bold text-lg md:text-2xl">Title</p>
-              <p class=" text-slate-400 text-sm md:text-lg ">Subtitle</p>
-            </div>
-          </div>
-         
-            <div class="  mx-2 card mt-2 shadow-lg rounded-lg mb-5 swiper-slide"  data-aos="fade-down" data-aos-duration="3000"
-            data-aos-delay="300">
-            <img
-            class="  object-fit  h-49  rounded-lg md:h-72 w-full  hover:transition hover:duration-300 hover:cursor-pointer "
-            src="./src/img/edu/4.jpg" alt="boiler">
-            <div class="title px-5 text-center py-3 mb-5">
-              <p class="my-1 mx-2 font-bold text-lg md:text-2xl">Title</p>
-              <p class=" text-slate-400 text-sm md:text-lg ">Subtitle</p>
-            </div>
-          </div>
-          
-            <div class=" mx-2 card mt-2 shadow-lg rounded-lg mb-5 swiper-slide  " data-aos="fade-down" data-aos-duration="2000"
-            data-aos-delay="200">
-            <img
-            class="  object-fit  h-49  rounded-lg md:h-72 w-full  hover:transition hover:duration-300 hover:cursor-pointer "
-            src="./src/img/edu/1.jpg" alt="boiler">
-            <div class="title px-5 text-center py-3 mb-5">
-              <p class="my-1 mx-2 font-bold text-lg md:text-2xl">Title</p>
-              <p class=" text-slate-400 text-sm md:text-lg ">Subtitle</p>
-            </div>
-            </div>
-        
-            <div class=" mx-2 card mt-2 shadow-lg rounded-lg mb-5 swiper-slide  " data-aos="fade-down" data-aos-duration="2000"
-            data-aos-delay="200">
-            <img
-            class="  object-fit  h-49  rounded-lg md:h-72 w-full  hover:transition hover:duration-300 hover:cursor-pointer "
-            src="./src/img/edu/6.jpg" alt="boiler">
-            <div class="title px-5 text-center py-3 mb-5">
-              <p class="my-1 mx-2 font-bold text-lg md:text-2xl">Title</p>
-              <p class=" text-slate-400 text-sm md:text-lg ">Subtitle</p>
-            </div>
-            </div>
-         
       </div>
-          </div>
-      </section>
+   
+
+        <div class="  mx-2 card mt-2 shadow-lg rounded-lg mb-5 swiper-slide"  data-aos="fade-down" data-aos-duration="3000"
+        data-aos-delay="300">
+        <img
+        class="  object-fit  h-49  rounded-lg md:h-72 w-full  hover:transition hover:duration-300 hover:cursor-pointer "
+        src="./src/img/edu/3.jpg" alt="boiler">
+        <div class="title px-5 text-center py-3 mb-5">
+          <p class="my-1 mx-2 font-bold text-lg md:text-2xl">Graduate moment</p>
+              <p class=" text-slate-400 text-sm md:text-lg ">Oktober 2022</p>
+        </div>
+      </div>
+     
+       
+     
+        </div>
       <!-- end section education -->
 
 
       <!-- section mycontact start -->
-      <section id="contact" class="mt-16 mb-16 ">
+         <section id="contact" class="mt-16 mb-16 ">
         <div class="container mx-auto " data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
           <p class="text-center font-bold text-2xl md:text-4xl">Contact Me</p>
 
@@ -696,68 +601,68 @@
             </div>
           </div>
         </div>
-    </div>
-    </section>
-    <!-- section mycontact end -->
+        </div>
+        </section>
+        <!-- section mycontact end -->
 
-    <!-- footer start -->
-    <nav class="bg-red-400 mx-xl">
-      <div class="container ">
-        <div class="grid grid-cols-2 p-5 px-5">
-          <div class=" text-white  justify-start mt-14 text-xl md:text-4xl md:ml-20 ">
-            <ul>
-              <li class="text-bold mb-5 font-bold  md:text-4xl">Diki Setiawan</li>
-              <li><a href="" class="text-sm md:text-xl"><i class="fa-brands fa-whatsapp"></i> 085777613672</a></li>
-              <li><a href="" class="text-sm md:text-xl"><i class="fa-solid fa-envelope"></i> dikisetia101@gmail.com</a>
-              </li>
-            </ul>
+      <!-- footer start -->
+        <nav class="bg-red-400 mx-xl">
+          <div class="container ">
+            <div class="grid grid-cols-2 p-5 px-5">
+              <div class=" text-white  justify-start mt-14 text-xl md:text-4xl md:ml-20 ">
+                <ul>
+                  <li class="text-bold mb-5 font-bold  md:text-4xl">Diki Setiawan</li>
+                  <li><a href="" class="text-sm md:text-xl"><i class="fa-brands fa-whatsapp"></i> 085777613672</a></li>
+                  <li><a href="" class="text-sm md:text-xl"><i class="fa-solid fa-envelope"></i> dikisetia101@gmail.com</a>
+                  </li>
+                </ul>
 
 
+              </div>
+
+              <div class=" text-white flex justify-end md:text-xl md:mt-5 m-5 p-4">
+                <ul class="">
+                  <li><a href="https://instagram.com/dikset101?igshid=YmMyMTA2M2Y="><i
+                        class="fa-brands  fa-instagram py-2"></i> Instagram</a></li>
+                  <li><a href="https://www.facebook.com/profile.php?id=100008699255044"><i
+                        class="fa-brands fa-square-facebook py-2"></i> Facebook</a></li>
+                  <li><a href="https://twitter.com/i/flow/login"><i class="fa-brands fa-square-twitter py-2"></i>
+                      Twitter</a></li>
+                  <li><a href="https://www.linkedin.com/in/diki-setiawan-95509a1aa/"><i
+                        class="fa-brands fa-linkedin py-2"></i> LinkedIn</a></li>
+                  <li><a href="https://t.me/dikisetia101"><i class="fa-brands fa-telegram py-2"></i> Telegram</a></li>
+                  <li><a href="https://discord.com/dikset#3128"><i class="fa-brands fa-discord py-2 "></i> Discord</a></li>
+                  <li><a href="https://github.com/dikisetiawan1"><i class="fa-brands fa-square-github py-2"></i> github</a>
+                  </li>
+
+                </ul>
+
+              </div>
+            </div>
+
+            <div class="text-center p-5 text-white font-semibold md:text-md">
+
+              <span>
+
+                All Copyright Diki Setiawan 2022
+              </span>
+            </div>
           </div>
 
-          <div class=" text-white flex justify-end md:text-xl md:mt-5 m-5 p-4">
-            <ul class="">
-              <li><a href="https://instagram.com/dikset101?igshid=YmMyMTA2M2Y="><i
-                    class="fa-brands  fa-instagram py-2"></i> Instagram</a></li>
-              <li><a href="https://www.facebook.com/profile.php?id=100008699255044"><i
-                    class="fa-brands fa-square-facebook py-2"></i> Facebook</a></li>
-              <li><a href="https://twitter.com/i/flow/login"><i class="fa-brands fa-square-twitter py-2"></i>
-                  Twitter</a></li>
-              <li><a href="https://www.linkedin.com/in/diki-setiawan-95509a1aa/"><i
-                    class="fa-brands fa-linkedin py-2"></i> LinkedIn</a></li>
-              <li><a href="https://t.me/dikisetia101"><i class="fa-brands fa-telegram py-2"></i> Telegram</a></li>
-              <li><a href="https://discord.com/dikset#3128"><i class="fa-brands fa-discord py-2 "></i> Discord</a></li>
-              <li><a href="https://github.com/dikisetiawan1"><i class="fa-brands fa-square-github py-2"></i> github</a>
-              </li>
 
-            </ul>
-
-          </div>
-        </div>
-
-        <div class="text-center p-5 text-white font-semibold md:text-md">
-
-          <span>
-
-            All Copyright Diki Setiawan 2022
-          </span>
-        </div>
+        </nav>
+        <!-- footer end -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
       </div>
-
-
-    </nav>
-    <!-- footer end -->
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-  </div>
-  </div>
-  <!-- main.js -->
-  <script src="./src/js/index.js" type="text/javascript"></script>
-  <!-- swiper js -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
- 
+      </div>
+      <!-- main.js -->
+      <script src="./src/js/index.js" type="text/javascript"></script>
+      <!-- swiper js -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+    
 </body>
 
 </html>
