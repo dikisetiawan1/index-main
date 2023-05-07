@@ -128,7 +128,7 @@ swiper-container {
       visibility: hidden;
     }
     .mobile{
-      margin-top: -150px;
+      margin-top: -500px;
     }
     .btn-top{
       margin-top: 100px;
@@ -139,18 +139,32 @@ swiper-container {
     .btn-top a
     {
       display: block;
-      margin-top: 50px;
+      margin-top: 40px;
       width: 100%;
-      
-
+      text-align: center;
     }
+.langs{
+
+display: flex;
+justify-content: center;
+
+}
+   button{
+    margin-bottom: 24px;
+    margin-left: 5px;
+    
+   }
     .cv{
       text-align: center;
-      margin-left: -5px;
+      
     }
 
     #about{
-      margin-top: -700px;
+      margin-top: 0px;
+     
+    }
+    .svg-about{
+      margin-top: -500px;
     }
 
   }
@@ -189,6 +203,15 @@ swiper-container {
     .wrapper-img img{
       margin-left: -65px;
     }
+    .cur{
+      margin-left: 30px;
+      
+    }
+    
+  }
+
+  .cur{
+    margin-left: 10px;
   }
  
 
